@@ -25,14 +25,14 @@ from tensorflow.keras.regularizers import l1, l2
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn import preprocessing
 
-instrument_list = ['USD_JPY']
+instrument_list = ['XAU_CHF']
 
 
 class automation(tpqoa_reoptimization.tpqoa): 
     
     def __init__(self, # Reoptimization Class 
                  config_file = './pyalgo.cfg.txt', symbol_another = 'EUR_USD', 
-                 symbol = 'USD_JPY', start = str(dt.datetime.now().date() - dt.timedelta(days = 142)), 
+                 symbol = 'XAU_CHF', start = str(dt.datetime.now().date() - dt.timedelta(days = 142)), 
                  end = str(dt.datetime.now().date() - dt.timedelta(days = 25)), granularity = 'M30', 
                  granular_resam_wkend = '30Min', leverage = 20, localized = True, symbol_list = instrument_list,
                  streaming_list = ['USD_JPY', 'EUR_USD'],
