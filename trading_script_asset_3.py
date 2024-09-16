@@ -1,4 +1,4 @@
-import tpqoa_trading_usd_jpy
+import tpqoa_trading_cython
 import oandaenv_classification as oe
 import datetime as dt
 from datetime import datetime
@@ -30,7 +30,7 @@ from sklearn import preprocessing
 instrument_list = ['XAU_CHF']
 
 
-class automation(tpqoa_trading_usd_jpy.tpqoa): 
+class automation(tpqoa_trading_cython.tpqoa): 
     
     def __init__(self, model_persisted, vAr, units, df_test, # Trading Class 
                  # Reoptimization Class  
