@@ -1,32 +1,3 @@
-#
-# tpqoa is a wrapper class for the
-# Oanda v20 API (RESTful & streaming)
-# making use of the v20 Python package
-#
-# (c) Dr. Yves J. Hilpisch
-# The Python Quants GmbH
-#
-#
-# Trading forex/CFDs on margin carries a high level of risk and may
-# not be suitable for all investors as you could sustain losses
-# in excess of deposits. Leverage can work against you. Due to the certain
-# restrictions imposed by the local law and regulation, German resident
-# retail client(s) could sustain a total loss of deposited funds but are
-# not subject to subsequent payment obligations beyond the deposited funds.
-# Be aware and fully understand all risks associated with
-# the market and trading. Prior to trading any products,
-# carefully consider your financial situation and
-# experience level. Any opinions, news, research, analyses, prices,
-# or other information is provided as general market commentary, and does not
-# constitute investment advice. The Python Quants GmbH will not accept
-# liability for any loss or damage, including without limitation to,
-# any loss of profit, which may arise directly or indirectly from use
-# of or reliance on such information.
-#
-# The tpqoa package is intended as a technological illustration only.
-# It comes with no warranties or representations,
-# to the extent permitted by applicable law.
-#
 import _thread
 import configparser
 import json
